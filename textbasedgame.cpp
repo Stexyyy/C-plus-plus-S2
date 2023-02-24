@@ -1,7 +1,3 @@
-//Simon R
-//12/9/2020
-//This program is a simple dungeon game without much design despite it being simple in a way it's hard with luck and intelligence being involved.
-
 #include <iostream>
 #include<string>
 #include<algorithm>
