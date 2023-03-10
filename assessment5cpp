@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+
+class pizza {
+private:
+	int toppings;
+	int price;
+	bool isBaked;
+public:
+	pizza();
+	void info();
+	void addtopping();
+	void calc();
+	void bake();
+
+
+
+};
+
+int main() {
+	pizza pizza1;
+	pizza1.info();
+	pizza1.bake();
+	pizza1.info();
+
+}
+
+void pizza::bake() {
+	//kinda couldn't finish this lool
+}
+
+pizza::pizza() {
+	toppings = 0;
+	price = 5;
+	isBaked = false;
+}
+
+void pizza::addtopping() { toppings += 2; }
+
+void pizza::info() {
+	cout << "Lets cook this pizza!!!" << endl;
+	if (isBaked == true)
+		cout << "this pizza is cooked to perfection!" << endl;
+	else
+		cout << "this pizza needs to be cooked..." << endl;
+}
